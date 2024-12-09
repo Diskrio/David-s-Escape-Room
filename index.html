@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>JS #1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="DJ">
+    <!-- Notice how each div has an 'onclick' attribute which links to a function in the JS file -->
+    <div class="Col1">
+      <div class="row">
+        <div class="box">
+          <div class="clock"></div>
+          <div class="door clickable" id="exit"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="box">
+          <div class="clintscare clickable" id="hidecam" onclick="clintcam()">
+          </div>
+
+        </div>
+        
+      </div>
+    </div>
+    <div class="Col2">
+      <div class="row">
+        <div 
+        class="baseball clickable"
+        onclick="showModal2()" >
+      </div>
+        <div class="print clickable" onclick="showModal3()"></div>
+        <div class="l4d clickable" onclick="showModal4()"></div>
+        <div class="vent clickable" onclick="showModal5()"></div>
+      </div>
+    </div>
+    <div class="Col3">
+      <div class="pjz clickable" onclick="showModal6()"></div>
+      <div class="cw"></div>
+    </div>
+    <script src="script.js"></script>
+
+    <div class="modal center-content" id="cam">
+      <!-- this is the "X" button to close the modal -->
+        <div class="modal1 center-content">
+          <video id="clintscare" class="biggestvid" style="display: none" controls>
+            <source src="Videos/ClintJumpScare - COMPRESS.mp4"  type="video/mp4" />
+          </video>
+
+        </div>
+    </div>  
+    <!-- Modals Start HERE!--> 
+
+
+    <div class="modal center-content BYB_BG" id="myModal2">
+      <!-- this is the "X" button to close the modal -->
+      <span class="close" style="font-size: 50px" onclick="hideModal2()"
+        >&times;</span>
+
+      <div class="modal2 BYB_BG center-content">
+        <div class="ModalBB1  "> 
+          <div class="modalbox BYB_BG center-content"/>
+          <img src="images/habibipower.png" id="directions" class="smallerer"/>
+          <img src id="playbox" class="smallerer clickable"/>
+             </div>
+          <div class="modalbox BYB_BG center-content none clickable" id="talkbox2"> 
+             </div>
+         </div>
+        <div class="ModalBB2 BYB_BG center">  
+          <div class="bbb1">
+            <div class="modalbox2 " >
+              <img src="images/RealWombat.png"  class="wombat"/>
+            </div>
+            <div class="modalbox3 center-content" >
+              <img src="images/WombatName.png"  class="big"/>
+            </div>
+          </div>
+          <div class="bbb2">
+            <div class="bbb3 bbbc">
+              <img src="images/teambybpic.png" class="bbc"/>
+            </div>
+            <div class="bbb4">
+              <div class="bbb5 "> <!-- row 1 -->
+                <div class="bbb6 "> <!-- #1 --> </div>
+                <div class="bbb6 "> <!-- #2 --> </div>
+                <div class="bbb6 "> <!-- #3 --> </div>
+                <div class="bbb6 "> <!-- #4 --> </div>
+                <div class="bbb6 "> <!-- #5 --> </div>
+                <div class="bbb6 "> <!-- #6 --> </div>
+                <div class="bbb6 "> <!-- #7 --> </div>
+                <div class="bbb6 "> <!-- #8 --> </div>
+                <div class="bbb6 "> <!-- #9 --> </div>
+                <div class="bbb6 "> <!-- #10 --> </div>
+                <div class="bbb6 "> <!-- #11 --> </div>
+                <div class="bbb6 "> <!-- #12 --> </div>
+                <div class="bbb6 "> <!-- #13 --> </div>
+                <div class="bbb6 "> <!-- #14 --> </div>
+                <div class="bbb6 "> <!-- #15 --> </div>
+                <div class="bbb6 "> <!-- #16 --> </div>
+                <div class="bbb6 "> <!-- #17 --> </div>
+                <div class="bbb6 "> <!-- #18 --> </div>
+                <div class="bbb6 "> <!-- #19 --> </div>
+                <div class="bbb6 "> <!-- #20 --> </div>
+                <div class="bbb6 "> <!-- #21 --> </div>
+                <div class="bbb6 "> <!-- #22 --> </div>
+                <div class="bbb6 "> <!-- #23 --> </div>
+                <div class="bbb6 "> <!-- #24 --> </div>
+                <div class="bbb6 "> <!-- #25 --> </div>
+                <div class="bbb6 "> <!-- #26 --> </div>
+                <div class="bbb6 "> <!-- #27 --> </div>
+                <div class="bbb6 "> <!-- #28 --> </div>
+                <div class="bbb6 "> <!-- #29 --> </div>
+                <div class="bbb6 "> <!-- #30 --> </div>
+                <div class="bbb6 "> <!-- #31 --> </div>
+                <div class="bbb6 "> <!-- #32 --> </div>
+                <div class="bbb6 "> <!-- #33 --> </div>
+                <div class="bbb6 "> <!-- #34 --> </div>
+                <div class="bbb6 "> <!-- #35 --> </div>
+                <div class="bbb6 "> <!-- #36 --> </div>
+                <div class="bbb6 "> <!-- #37 --> </div>
+                <div class="bbb6 "> <!-- #38 --> </div>
+                <div class="bbb6 "> <!-- #39 --> </div>
+                <div class="bbb6 "> <!-- #40 --> </div>
+              </div>
+              <div class="bbb5 "> <!-- row 2 -->
+                <div class="bbb6 "> <!-- #0 --> </div>
+                <div class="bbb6 "> <!-- #1 --> </div>
+                <div class="bbb6 "> <!-- #2 --> </div>
+                <div class="bbb6 "> <!-- #3 --> </div>
+                <div class="bbb6 "> <!-- #4 --> </div>
+                <div class="bbb6 "> <!-- #5 --> </div>
+                <div class="bbb6 "> <!-- #6 --> </div>
+                <div class="bbb6 "> <!-- #7 --> </div>
+                <div class="bbb6 "> <!-- #8 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #9 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #10 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #11 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #12 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #13 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #14 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #15 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #16 --> </div>
+                <div class="bbb6 "> <!-- #17 --> </div>
+                <div class="bbb6 "> <!-- #18 --> </div>
+                <div class="bbb6  clickable" onclick="kieshap()"> <!-- #19 --> </div>
+                <div class="bbb6  clickable" onclick="kieshap()"> <!-- #20 --> </div>
+                <div class="bbb6 "> <!-- #21 --> </div>
+                <div class="bbb6 "> <!-- #22 --> </div>
+                <div class="bbb6 "> <!-- #23 --> </div>
+                <div class="bbb6 "> <!-- #24 --> </div>
+                <div class="bbb6 "> <!-- #25 --> </div>
+                <div class="bbb6 "> <!-- #26 --> </div>
+                <div class="bbb6 "> <!-- #27 --> </div>
+                <div class="bbb6 "> <!-- #28 --> </div>
+                <div class="bbb6 "> <!-- #29 --> </div>
+                <div class="bbb6 "> <!-- #30 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #31 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #32 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #33 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #34 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #35 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #36 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #37 --> </div>
+                <div class="bbb6 "> <!-- #38 --> </div>
+                <div class="bbb6 "> <!-- #39 --> </div>
+              </div>
+              <div class="bbb5 "> <!-- row 3 -->
+                <div class="bbb6 "> <!-- #1 --> </div>
+                <div class="bbb6 "> <!-- #2 --> </div>
+                <div class="bbb6 "> <!-- #3 --> </div>
+                <div class="bbb6  clickable" onclick="tonyd()"> <!-- #4 --> </div>
+                <div class="bbb6  clickable" onclick="tonyd()"> <!-- #5 --> </div>
+                <div class="bbb6  clickable" onclick="tonyd()"> <!-- #6 --> </div>
+                <div class="bbb6  clickable" onclick="tonyd()"> <!-- #7 --> </div>
+                <div class="bbb6  clickable" onclick="tonyd()"> <!-- #8 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #9 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #10 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #11 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #12 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #13 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #14 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #15 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #16 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #17 --> </div>
+                <div class="bbb6  clickable" onclick="kieshap()"> <!-- #18 --> </div>
+                <div class="bbb6  clickable" onclick="kieshap()"> <!-- #19 --> </div>
+                <div class="bbb6  clickable" onclick="kieshap()"> <!-- #20 --> </div>
+                <div class="bbb6  clickable" onclick="kieshap()"> <!-- #21 --> </div>
+                <div class="bbb6  clickable" onclick="kieshap()"> <!-- #22 --> </div>
+                <div class="bbb6  clickable" onclick="kieshap()"> <!-- #23 --> </div>
+                <div class="bbb6 "> <!-- #24 --> </div>
+                <div class="bbb6 "> <!-- #25 --> </div>
+                <div class="bbb6  clickable" onclick="demitrip()"> <!-- #26 --> </div>
+                <div class="bbb6  clickable" onclick="demitrip()"> <!-- #27 --> </div>
+                <div class="bbb6  clickable" onclick="demitrip()"> <!-- #28 --> </div>
+                <div class="bbb6  clickable" onclick="demitrip()"> <!-- #29 --> </div>
+                <div class="bbb6 "> <!-- #30 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #31 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #32 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #33 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #34 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #35 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #36 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #37 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #38 --> </div>
+                <div class="bbb6 "> <!-- #39 --> </div>
+                <div class="bbb6 "> <!-- #40 --> </div>
+              </div>
+              <div class="bbb5 "> <!-- row 4 -->
+                <div class="bbb6 "> <!-- #0 --> </div>
+                <div class="bbb6 "> <!-- #1 --> </div>
+                <div class="bbb6 "> <!-- #2 --> </div>
+                <div class="bbb6  clickable" onclick="tonyd()"> <!-- #3 --> </div>
+                <div class="bbb6  clickable" onclick="tonyd()"> <!-- #4 --> </div>
+                <div class="bbb6  clickable" onclick="tonyd()"> <!-- #5 --> </div>
+                <div class="bbb6  clickable" onclick="tonyd()"> <!-- #6 --> </div>
+                <div class="bbb6  clickable" onclick="tonyd()"> <!-- #7 --> </div>
+                <div class="bbb6 "> <!-- #8 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #9 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #10 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #11 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #12 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #13 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #14 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #15 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #16 --> </div>
+                <div class="bbb6  clickable" onclick="kieshap()"> <!-- #17 --> </div>
+                <div class="bbb6  clickable" onclick="kieshap()"> <!-- #18 --> </div>
+                <div class="bbb6  clickable" onclick="kieshap()"> <!-- #19 --> </div>
+                <div class="bbb6  clickable" onclick="kieshap()"> <!-- #20 --> </div>
+                <div class="bbb6  clickable" onclick="kieshap()"> <!-- #21 --> </div>
+                <div class="bbb6  clickable" onclick="kieshap()"> <!-- #22 --> </div>
+                <div class="bbb6 "> <!-- #23 --> </div>
+                <div class="bbb6  clickable" onclick="demitrip()"> <!-- #24 --> </div>
+                <div class="bbb6  clickable" onclick="demitrip()"> <!-- #25 --> </div>
+                <div class="bbb6  clickable" onclick="demitrip()"> <!-- #26 --> </div>
+                <div class="bbb6  clickable" onclick="demitrip()"> <!-- #27 --> </div>
+                <div class="bbb6  clickable" onclick="demitrip()"> <!-- #28 --> </div>
+                <div class="bbb6 "> <!-- #29 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #30 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #31 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #32 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #33 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #34 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #35 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #36 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #37 --> </div>
+                <div class="bbb6 "> <!-- #38 --> </div>
+                <div class="bbb6 "> <!-- #39 --> </div>
+              </div>
+              <div class="bbb5 "> <!-- row 5 -->
+                <div class="bbb6 "> <!-- #1 --> </div>
+                <div class="bbb6 "> <!-- #2 --> </div>
+                <div class="bbb6 "> <!-- #3 --> </div>
+                <div class="bbb6  clickable" onclick="tonyd()"> <!-- #4 --> </div>
+                <div class="bbb6  clickable" onclick="tonyd()"> <!-- #5 --> </div>
+                <div class="bbb6  clickable" onclick="tonyd()"> <!-- #6 --> </div>
+                <div class="bbb6  clickable" onclick="tonyd()"> <!-- #7 --> </div>
+                <div class="bbb6  clickable" onclick="tonyd()"> <!-- #8 --> </div>
+                <div class="bbb6 "> <!-- #9 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #10 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #11 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #12 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #13 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #14 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #15 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #16 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #17 --> </div>
+                <div class="bbb6  clickable" onclick="kieshap()"> <!-- #18 --> </div>
+                <div class="bbb6  clickable" onclick="kieshap()"> <!-- #19 --> </div>
+                <div class="bbb6  clickable" onclick="kieshap()"> <!-- #20 --> </div>
+                <div class="bbb6  clickable" onclick="kieshap()"> <!-- #21 --> </div>
+                <div class="bbb6  clickable" onclick="kieshap()"> <!-- #22 --> </div>
+                <div class="bbb6  clickable" onclick="kieshap()"> <!-- #23 --> </div>
+                <div class="bbb6 "> <!-- #24 --> </div>
+                <div class="bbb6  clickable" onclick="demitrip()"> <!-- #25 --> </div>
+                <div class="bbb6  clickable" onclick="demitrip()"> <!-- #26 --> </div>
+                <div class="bbb6  clickable" onclick="demitrip()"> <!-- #27 --> </div>
+                <div class="bbb6  clickable" onclick="demitrip()"> <!-- #28 --> </div>
+                <div class="bbb6  clickable" onclick="demitrip()"> <!-- #29 --> </div>
+                <div class="bbb6 "> <!-- #30 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #31 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #32 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #33 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #34 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #35 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #36 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #37 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #38 --> </div>
+                <div class="bbb6 "> <!-- #39 --> </div>
+                <div class="bbb6 "> <!-- #40 --> </div>
+              </div>
+              <div class="bbb5 "> <!-- row 6 -->
+                <div class="bbb6 "> <!-- #0 --> </div>
+                <div class="bbb6 "> <!-- #1 --> </div>
+                <div class="bbb6 "> <!-- #2 --> </div>
+                <div class="bbb6  clickable" onclick="tonyd()"> <!-- #3 --> </div>
+                <div class="bbb6  clickable" onclick="tonyd()"> <!-- #4 --> </div>
+                <div class="bbb6  clickable" onclick="tonyd()"> <!-- #5 --> </div>
+                <div class="bbb6  clickable" onclick="tonyd()"> <!-- #6 --> </div>
+                <div class="bbb6  clickable" onclick="tonyd()"> <!-- #7 --> </div>
+                <div class="bbb6 "> <!-- #8 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #9 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #10 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #11 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #12 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #13 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #14 --> </div>
+                <div class="bbb6  clickable" onclick="achmedk()"> <!-- #15 --> </div>
+                <div class="bbb6 "> <!-- #16 --> </div>
+                <div class="bbb6  clickable" onclick="kieshap()"> <!-- #17 --> </div>
+                <div class="bbb6  clickable" onclick="kieshap()"> <!-- #18 --> </div>
+                <div class="bbb6  clickable" onclick="kieshap()"> <!-- #19 --> </div>
+                <div class="bbb6  clickable" onclick="kieshap()"> <!-- #20 --> </div>
+                <div class="bbb6  clickable" onclick="kieshap()"> <!-- #21 --> </div>
+                <div class="bbb6  clickable" onclick="kieshap()"> <!-- #22 --> </div>
+                <div class="bbb6 "> <!-- #23 --> </div>
+                <div class="bbb6 "> <!-- #24 --> </div>
+                <div class="bbb6  clickable" onclick="demitrip()"> <!-- #25 --> </div>
+                <div class="bbb6  clickable" onclick="demitrip()"> <!-- #26 --> </div>
+                <div class="bbb6  clickable" onclick="demitrip()"> <!-- #27 --> </div>
+                <div class="bbb6  clickable" onclick="demitrip()"> <!-- #28 --> </div>
+                <div class="bbb6  clickable" onclick="demitrip()"> <!-- #29 --> </div>
+                <div class="bbb6 "> <!-- #30 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #31 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #32 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #33 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #34 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #35 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #36 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #37 --> </div>
+                <div class="bbb6 "> <!-- #38 --> </div>
+                <div class="bbb6 "> <!-- #39 --> </div>
+              </div>
+              <div class="bbb5 "> <!-- row 7 -->
+                <div class="bbb6 "> <!-- #1 --> </div>
+                <div class="bbb6 "> <!-- #2 --> </div>
+                <div class="bbb6 "> <!-- #3 --> </div>
+                <div class="bbb6  clickable" onclick="tonyd()"> <!-- #4 --> </div>
+                <div class="bbb6  clickable" onclick="tonyd()"> <!-- #5 --> </div>
+                <div class="bbb6  clickable" onclick="tonyd()"> <!-- #6 --> </div>
+                <div class="bbb6  clickable" onclick="tonyd()"> <!-- #7 --> </div>
+                <div class="bbb6  clickable" onclick="Petew()"> <!-- #8 --> </div>
+                <div class="bbb6  clickable" onclick="Petew()"> <!-- #9 --> </div>
+                <div class="bbb6  clickable" onclick="Petew()"> <!-- #10 --> </div>
+                <div class="bbb6 "> <!-- #11 --> </div>
+                <div class="bbb6 "> <!-- #12 --> </div>
+                <div class="bbb6 "> <!-- #13 --> </div>
+                <div class="bbb6 "> <!-- #14 --> </div>
+                <div class="bbb6 "> <!-- #15 --> </div>
+                <div class="bbb6 "> <!-- #16 --> </div>
+                <div class="bbb6 "> <!-- #17 --> </div>
+                <div class="bbb6 "> <!-- #18 --> </div>
+                <div class="bbb6  clickable" onclick="kieshap()"> <!-- #19 --> </div>
+                <div class="bbb6  clickable" onclick="kieshap()"> <!-- #20 --> </div>
+                <div class="bbb6  clickable" onclick="kieshap()"> <!-- #21 --> </div>
+                <div class="bbb6  clickable" onclick="kieshap()"> <!-- #22 --> </div>
+                <div class="bbb6 "> <!-- #23 --> </div>
+                <div class="bbb6 "> <!-- #24 --> </div>
+                <div class="bbb6  clickable" onclick="demitrip()"> <!-- #25 --> </div>
+                <div class="bbb6  clickable" onclick="demitrip()"> <!-- #26 --> </div>
+                <div class="bbb6  clickable" onclick="demitrip()"> <!-- #27 --> </div>
+                <div class="bbb6  clickable" onclick="demitrip()"> <!-- #28 --> </div>
+                <div class="bbb6  clickable" onclick="demitrip()"> <!-- #29 --> </div>
+                <div class="bbb6  clickable" onclick="demitrip()"> <!-- #30 --> </div>
+                <div class="bbb6 "> <!-- #31 --> </div>
+                <div class="bbb6 "> <!-- #32 --> </div>
+                <div class="bbb6 "> <!-- #33 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #34 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #35 --> </div>
+                <div class="bbb6  clickable" onclick="danter()"> <!-- #36 --> </div>
+                <div class="bbb6 "> <!-- #37 --> </div>
+                <div class="bbb6 "> <!-- #38 --> </div>
+                <div class="bbb6 "> <!-- #39 --> </div>
+                <div class="bbb6 "> <!-- #40 --> </div>
+              </div>
+              <div class="bbb5 "> <!-- row 8 -->
+                <div class="bbb6 "> <!-- #0 --> </div>
+                <div class="bbb6 "> <!-- #1 --> </div>
+                <div class="bbb6 "> <!-- #2 --> </div>
+                <div class="bbb6  clickable" onclick="tonyd()"> <!-- #3 --> </div>
+                <div class="bbb6  clickable" onclick="tonyd()"> <!-- #4 --> </div>
+                <div class="bbb6  clickable" onclick="tonyd()"> <!-- #5 --> </div>
+                <div class="bbb6  clickable" onclick="Petew()"> <!-- #6 --> </div>
+                <div class="bbb6  clickable" onclick="Petew()"> <!-- #7 --> </div>
+                <div class="bbb6  clickable" onclick="Petew()"> <!-- #8 --> </div>
+                <div class="bbb6  clickable" onclick="Petew()"> <!-- #9 --> </div>
+                <div class="bbb6  "> <!-- #10 --> </div>
+                <div class="bbb6 "> <!-- #11 --> </div>
+                <div class="bbb6 "> <!-- #12 --> </div>
+                <div class="bbb6 "> <!-- #13 --> </div>
+                <div class="bbb6 "> <!-- #14 --> </div>
+                <div class="bbb6 "> <!-- #15 --> </div>
+                <div class="bbb6 "> <!-- #16 --> </div>
+                <div class="bbb6 "> <!-- #17 --> </div>
+                <div class="bbb6 "> <!-- #18 --> </div>
+                <div class="bbb6 "> <!-- #19 --> </div>
+                <div class="bbb6 "> <!-- #20 --> </div>
+                <div class="bbb6 "> <!-- #21 --> </div>
+                <div class="bbb6 "> <!-- #22 --> </div>
+                <div class="bbb6 "> <!-- #23 --> </div>
+                <div class="bbb6  clickable" onclick="demitrip()"> <!-- #24 --> </div>
+                <div class="bbb6  clickable" onclick="demitrip()"> <!-- #25 --> </div>
+                <div class="bbb6  clickable" onclick="demitrip()"> <!-- #26 --> </div>
+                <div class="bbb6  clickable" onclick="demitrip()"> <!-- #27 --> </div>
+                <div class="bbb6  clickable" onclick="demitrip()"> <!-- #28 --> </div>
+                <div class="bbb6  clickable" onclick="demitrip()"> <!-- #29 --> </div>
+                <div class="bbb6 "> <!-- #30 --> </div>
+                <div class="bbb6 "> <!-- #31 --> </div>
+                <div class="bbb6 "> <!-- #32 --> </div>
+                <div class="bbb6 "> <!-- #33 --> </div>
+                <div class="bbb6 "> <!-- #34 --> </div>
+                <div class="bbb6 "> <!-- #35 --> </div>
+                <div class="bbb6 "> <!-- #36 --> </div>
+                <div class="bbb6 "> <!-- #37 --> </div>
+                <div class="bbb6 "> <!-- #38 --> </div>
+                <div class="bbb6 "> <!-- #39 --> </div>
+              </div>
+              <div class="bbb5 "> <!-- row 9 -->
+                <div class="bbb6 "> <!-- #1 --> </div>
+                <div class="bbb6 "> <!-- #2 --> </div>
+                <div class="bbb6 "> <!-- #3 --> </div>
+                <div class="bbb6  clickable" onclick="tonyd()"> <!-- #4 --> </div>
+                <div class="bbb6  clickable" onclick="tonyd()"> <!-- #5 --> </div>
+                <div class="bbb6  clickable" onclick="tonyd()"> <!-- #6 --> </div>
+                <div class="bbb6  clickable" onclick="Petew()"> <!-- #7 --> </div>
+                <div class="bbb6  clickable" onclick="Petew()"> <!-- #8 --> </div>
+                <div class="bbb6  clickable" onclick="Petew()"> <!-- #9 --> </div>
+                <div class="bbb6  clickable" onclick="Petew()"> <!-- #10 --> </div>
+                <div class="bbb6 "> <!-- #11 --> </div>
+                <div class="bbb6 "> <!-- #12 --> </div>
+                <div class="bbb6 "> <!-- #13 --> </div>
+                <div class="bbb6 "> <!-- #14 --> </div>
+                <div class="bbb6  clickable" onclick="mikeyt()"> <!-- #15 --> </div>
+                <div class="bbb6  clickable" onclick="mikeyt()"> <!-- #16 --> </div>
+                <div class="bbb6  clickable" onclick="mikeyt()"> <!-- #17 --> </div>
+                <div class="bbb6 "> <!-- #18 --> </div>
+                <div class="bbb6 "> <!-- #19 --> </div>
+                <div class="bbb6 "> <!-- #20 --> </div>
+                <div class="bbb6 "> <!-- #21 --> </div>
+                <div class="bbb6 "> <!-- #22 --> </div>
+                <div class="bbb6  clickable" onclick="amirk()"> <!-- #23 --> </div>
+                <div class="bbb6  clickable" onclick="amirk()"> <!-- #24 --> </div>
+                <div class="bbb6  clickable" onclick="amirk()"> <!-- #25 --> </div>
+                <div class="bbb6 "> <!-- #26 --> </div>
+                <div class="bbb6 "> <!-- #27 --> </div>
+                <div class="bbb6 "> <!-- #28 --> </div>
+                <div class="bbb6 "> <!-- #29 --> </div>
+                <div class="bbb6 "> <!-- #30 --> </div>
+                <div class="bbb6 "> <!-- #31 --> </div>
+                <div class="bbb6 "> <!-- #32 --> </div>
+                <div class="bbb6 "> <!-- #33 --> </div>
+                <div class="bbb6 "> <!-- #34 --> </div>
+                <div class="bbb6 "> <!-- #35 --> </div>
+                <div class="bbb6 "> <!-- #36 --> </div>
+                <div class="bbb6 "> <!-- #37 --> </div>
+                <div class="bbb6 "> <!-- #38 --> </div>
+                <div class="bbb6 "> <!-- #39 --> </div>
+                <div class="bbb6 "> <!-- #40 --> </div>
+              </div>
+              <div class="bbb5 "> <!-- row 10 -->
+                <div class="bbb6 "> <!-- #0 --> </div>
+                <div class="bbb6 "> <!-- #1 --> </div>
+                <div class="bbb6 "> <!-- #2 --> </div>
+                <div class="bbb6 "> <!-- #3 --> </div>
+                <div class="bbb6 "> <!-- #4 --> </div>
+                <div class="bbb6  clickable" onclick="tonyd()"> <!-- #5 --> </div>
+                <div class="bbb6  clickable" onclick="Petew()"> <!-- #6 --> </div>
+                <div class="bbb6  clickable" onclick="Petew()"> <!-- #7 --> </div>
+                <div class="bbb6  clickable" onclick="Petew()"> <!-- #8 --> </div>
+                <div class="bbb6  clickable" onclick="Petew()"> <!-- #9 --> </div>
+                <div class="bbb6 "> <!-- #10 --> </div>
+                <div class="bbb6 "> <!-- #11 --> </div>
+                <div class="bbb6 "> <!-- #12 --> </div>
+                <div class="bbb6  clickable" onclick="mikeyt()"> <!-- #13 --> </div>
+                <div class="bbb6  clickable" onclick="mikeyt()"> <!-- #14 --> </div>
+                <div class="bbb6  clickable" onclick="mikeyt()"> <!-- #15 --> </div>
+                <div class="bbb6  clickable" onclick="mikeyt()"> <!-- #16 --> </div>
+                <div class="bbb6  clickable" onclick="mikeyt()"> <!-- #17 --> </div>
+                <div class="bbb6 "> <!-- #18 --> </div>
+                <div class="bbb6 "> <!-- #19 --> </div>
+                <div class="bbb6 "> <!-- #20 --> </div>
+                <div class="bbb6  clickable" onclick="amirk()"> <!-- #21 --> </div>
+                <div class="bbb6  clickable" onclick="amirk()"> <!-- #22 --> </div>
+                <div class="bbb6  clickable" onclick="amirk()"> <!-- #23 --> </div>
+                <div class="bbb6  clickable" onclick="amirk()"> <!-- #24 --> </div>
+                <div class="bbb6  clickable" onclick="amirk()"> <!-- #25 --> </div>
+                <div class="bbb6 "> <!-- #26 --> </div>
+                <div class="bbb6 "> <!-- #27 --> </div>
+                <div class="bbb6 "> <!-- #28 --> </div>
+                <div class="bbb6 "> <!-- #29 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #30 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #31 --> </div>
+                <div class="bbb6 "> <!-- #32 --> </div>
+                <div class="bbb6 "> <!-- #33 --> </div>
+                <div class="bbb6 "> <!-- #34 --> </div>
+                <div class="bbb6 "> <!-- #35 --> </div>
+                <div class="bbb6 "> <!-- #36 --> </div>
+                <div class="bbb6 "> <!-- #37 --> </div>
+                <div class="bbb6 "> <!-- #38 --> </div>
+                <div class="bbb6 "> <!-- #39 --> </div>
+              </div>
+              <div class="bbb5 "> <!-- row 11 -->
+                <div class="bbb6 "> <!-- #1 --> </div>
+                <div class="bbb6 "> <!-- #2 --> </div>
+                <div class="bbb6 "> <!-- #3 --> </div>
+                <div class="bbb6  clickable" onclick="tonyd()"> </div>
+                <div class="bbb6  clickable" onclick="tonyd()"> <!-- #5 --> </div>
+                <div class="bbb6  clickable" onclick="tonyd()"> <!-- #6 --> </div>
+                <div class="bbb6  clickable" onclick="Petew()"> <!-- #7 --> </div>
+                <div class="bbb6  clickable" onclick="Petew()"> <!-- #8 --> </div>
+                <div class="bbb6  clickable" onclick="Petew()"> <!-- #9 --> </div>
+                <div class="bbb6  clickable" onclick="Petew()"> <!-- #10 --> </div>
+                <div class="bbb6 "> <!-- #11 --> </div>
+                <div class="bbb6 "> <!-- #12 --> </div>
+                <div class="bbb6  clickable" onclick="mikeyt()"> <!-- #13 --> </div>
+                <div class="bbb6  clickable" onclick="mikeyt()"> <!-- #14 --> </div>
+                <div class="bbb6  clickable" onclick="mikeyt()"> <!-- #15 --> </div>
+                <div class="bbb6  clickable" onclick="mikeyt()"> <!-- #16 --> </div>
+                <div class="bbb6  clickable" onclick="mikeyt()"> <!-- #17 --> </div>
+                <div class="bbb6  clickable" onclick="mikeyt()"> <!-- #18 --> </div>
+                <div class="bbb6  clickable" onclick="mikeyt()"> <!-- #19 --> </div>
+                <div class="bbb6 "> <!-- #20 --> </div>
+                <div class="bbb6 "> <!-- #21 --> </div>
+                <div class="bbb6  clickable" onclick="amirk()"> <!-- #22 --> </div>
+                <div class="bbb6  clickable" onclick="amirk()"> <!-- #23 --> </div>
+                <div class="bbb6  clickable" onclick="amirk()"> <!-- #24 --> </div>
+                <div class="bbb6  clickable" onclick="amirk()"> <!-- #25 --> </div>
+                <div class="bbb6  clickable" onclick="amirk()"> <!-- #26 --> </div>
+                <div class="bbb6 "> <!-- #27 --> </div>
+                <div class="bbb6 "> <!-- #28 --> </div>
+                <div class="bbb6 "> <!-- #29 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #30 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #31 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #32 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #33 --> </div>
+                <div class="bbb6 "> <!-- #34 --> </div>
+                <div class="bbb6 "> <!-- #35 --> </div>
+                <div class="bbb6 "> <!-- #36 --> </div>
+                <div class="bbb6 "> <!-- #37 --> </div>
+                <div class="bbb6 "> <!-- #38 --> </div>
+                <div class="bbb6 "> <!-- #39 --> </div>
+                <div class="bbb6 "> <!-- #40 --> </div>
+              </div>
+              <div class="bbb5 "> <!-- row 12 -->
+                <div class="bbb6 "> <!-- #0 --> </div>
+                <div class="bbb6 "> <!-- #1 --> </div>
+                <div class="bbb6 "> <!-- #2 --> </div>
+                <div class="bbb6 "> <!-- #3 --> </div>
+                <div class="bbb6 "> <!-- #4 --> </div>
+                <div class="bbb6 "> <!-- #5 --> </div>
+                <div class="bbb6  clickable" onclick="Petew()"> <!-- #6 --> </div>
+                <div class="bbb6  clickable" onclick="Petew()"> <!-- #7 --> </div>
+                <div class="bbb6  clickable" onclick="Petew()"> <!-- #8 --> </div>
+                <div class="bbb6  clickable" onclick="Petew()"> <!-- #9 --> </div>
+                <div class="bbb6 "><!-- #10 --> </div>
+                <div class="bbb6 "> <!-- #11 --> </div>
+                <div class="bbb6 "> <!-- #12 --> </div>
+                <div class="bbb6  clickable" onclick="mikeyt()"> <!-- #13 --> </div>
+                <div class="bbb6  clickable" onclick="mikeyt()"> <!-- #14 --> </div>
+                <div class="bbb6  clickable" onclick="mikeyt()"> <!-- #15 --> </div>
+                <div class="bbb6  clickable" onclick="mikeyt()"> <!-- #16 --> </div>
+                <div class="bbb6  clickable" onclick="mikeyt()"> <!-- #17 --> </div>
+                <div class="bbb6  clickable" onclick="mikeyt()"> <!-- #18 --> </div>
+                <div class="bbb6 "> <!-- #19 --> </div>
+                <div class="bbb6  clickable" onclick="amirk()"> <!-- #20 --> </div>
+                <div class="bbb6  clickable" onclick="amirk()"> <!-- #21 --> </div>
+                <div class="bbb6  clickable" onclick="amirk()"> <!-- #22 --> </div>
+                <div class="bbb6  clickable" onclick="amirk()"> <!-- #23 --> </div>
+                <div class="bbb6  clickable" onclick="amirk()"> <!-- #24 --> </div>
+                <div class="bbb6  clickable" onclick="amirk()"> <!-- #25 --> </div>
+                <div class="bbb6  clickable" onclick="amirk()"> <!-- #26 --> </div>
+                <div class="bbb6 "> <!-- #27 --> </div>
+                <div class="bbb6 "> <!-- #28 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #29 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #30 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #31 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #32 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #33 --> </div>
+                <div class="bbb6 "> <!-- #34 --> </div>
+                <div class="bbb6 "> <!-- #35 --> </div>
+                <div class="bbb6 "> <!-- #36 --> </div>
+                <div class="bbb6 "> <!-- #37 --> </div>
+                <div class="bbb6 "> <!-- #38 --> </div>
+                <div class="bbb6 "> <!-- #39 --> </div>
+              </div>
+              <div class="bbb5 "> <!-- row 13 -->
+                <div class="bbb6 "> <!-- #1 --> </div>
+                <div class="bbb6 "> <!-- #2 --> </div>
+                <div class="bbb6 "> <!-- #3 --> </div>
+                <div class="bbb6 "> <!-- #4 --> </div>
+                <div class="bbb6 "> <!-- #5 --> </div>
+                <div class="bbb6 "> <!-- #6 --> </div>
+                <div class="bbb6  clickable" onclick="Petew()"> <!-- #7 --> </div>
+                <div class="bbb6  clickable" onclick="Petew()"><!-- #8 --> </div>
+                <div class="bbb6  clickable" onclick="Petew()"> <!-- #9 --> </div>
+                <div class="bbb6  clickable" onclick="Petew()"> <!-- #10 --> </div>
+                <div class="bbb6 "> <!-- #11 --> </div>
+                <div class="bbb6 "> <!-- #12 --> </div>
+                <div class="bbb6 "> <!-- #13 --> </div>
+                <div class="bbb6  clickable" onclick="mikeyt()"> <!-- #14 --> </div>
+                <div class="bbb6  clickable" onclick="mikeyt()"> <!-- #15 --> </div>
+                <div class="bbb6  clickable" onclick="mikeyt()"> <!-- #16 --> </div>
+                <div class="bbb6  clickable" onclick="mikeyt()"> <!-- #17 --> </div>
+                <div class="bbb6  clickable" onclick="mikeyt()"> <!-- #18 --> </div>
+                <div class="bbb6 "> <!-- #19 --> </div>
+                <div class="bbb6 "> <!-- #20 --> </div>
+                <div class="bbb6  clickable" onclick="amirk()"> <!-- #21 --> </div>
+                <div class="bbb6  clickable" onclick="amirk()"> <!-- #22 --> </div>
+                <div class="bbb6  clickable" onclick="amirk()"> <!-- #23 --> </div>
+                <div class="bbb6  clickable" onclick="amirk()"> <!-- #24 --> </div>
+                <div class="bbb6  clickable" onclick="amirk()"> <!-- #25 --> </div>
+                <div class="bbb6  clickable" onclick="amirk()"> <!-- #26 --> </div>
+                <div class="bbb6  clickable" onclick="amirk()"> <!-- #27 --> </div>
+                <div class="bbb6 "> <!-- #28 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #29 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #30 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #31 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #32 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #33 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #34 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #35 --> </div>
+                <div class="bbb6 "> <!-- #36 --> </div>
+                <div class="bbb6 "> <!-- #37 --> </div>
+                <div class="bbb6 "> <!-- #38 --> </div>
+                <div class="bbb6 "> <!-- #39 --> </div>
+                <div class="bbb6 "> <!-- #40 --> </div>
+              </div>
+              <div class="bbb5 "> <!-- row 14 -->
+                <div class="bbb6 "> <!-- #0 --> </div>
+                <div class="bbb6 "> <!-- #1 --> </div>
+                <div class="bbb6 "> <!-- #2 --> </div>
+                <div class="bbb6 "> <!-- #3 --> </div>
+                <div class="bbb6 "> <!-- #4 --> </div>
+                <div class="bbb6 "> <!-- #5 --> </div>
+                <div class="bbb6 "> <!-- #6 --> </div>
+                <div class="bbb6  clickable" onclick="Petew()"> <!-- #7 --> </div>
+                <div class="bbb6  clickable" onclick="Petew()"> <!-- #8 --> </div>
+                <div class="bbb6 "> <!-- #9 --> </div>
+                <div class="bbb6 "> <!-- #10 --> </div>
+                <div class="bbb6 "> <!-- #11 --> </div>
+                <div class="bbb6 "> <!-- #12 --> </div>
+                <div class="bbb6 "> <!-- #13 --> </div>
+                <div class="bbb6 "> <!-- #14 --> </div>
+                <div class="bbb6 "> <!-- #15 --> </div>
+                <div class="bbb6 "> <!-- #16 --> </div>
+                <div class="bbb6 "> <!-- #17 --> </div>
+                <div class="bbb6 "> <!-- #18 --> </div>
+                <div class="bbb6 "> <!-- #19 --> </div>
+                <div class="bbb6 "> <!-- #20 --> </div>
+                <div class="bbb6 "> <!-- #21 --> </div>
+                <div class="bbb6  clickable" onclick="amirk()"> <!-- #22 --> </div>
+                <div class="bbb6  clickable" onclick="amirk()"> <!-- #23 --> </div>
+                <div class="bbb6  clickable" onclick="amirk()"> <!-- #24 --> </div>
+                <div class="bbb6  clickable" onclick="amirk()"> <!-- #25 --> </div>
+                <div class="bbb6 "> <!-- #26 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #27 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #28 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #29 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #30 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #31 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #32 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #33 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #34 --> </div>
+                <div class="bbb6 "> <!-- #35 --> </div>
+                <div class="bbb6 "> <!-- #36 --> </div>
+                <div class="bbb6 "> <!-- #37 --> </div>
+                <div class="bbb6 "> <!-- #38 --> </div>
+                <div class="bbb6 "> <!-- #39 --> </div>
+              </div>
+              <div class="bbb5 "> <!-- row 15 -->
+                <div class="bbb6 "> <!-- #1 --> </div>
+                <div class="bbb6 "> <!-- #2 --> </div>
+                <div class="bbb6 "> <!-- #3 --> </div>
+                <div class="bbb6 "> <!-- #4 --> </div>
+                <div class="bbb6 "> <!-- #5 --> </div>
+                <div class="bbb6 "> <!-- #6 --> </div>
+                <div class="bbb6 "> <!-- #7 --> </div>
+                <div class="bbb6 "> <!-- #8 --> </div>
+                <div class="bbb6 "> <!-- #9 --> </div>
+                <div class="bbb6 "> <!-- #10 --> </div>
+                <div class="bbb6 "> <!-- #11 --> </div>
+                <div class="bbb6 "> <!-- #12 --> </div>
+                <div class="bbb6 "> <!-- #13 --> </div>
+                <div class="bbb6 "> <!-- #14 --> </div>
+                <div class="bbb6 "> <!-- #15 --> </div>
+                <div class="bbb6 "> <!-- #16 --> </div>
+                <div class="bbb6 "> <!-- #17 --> </div>
+                <div class="bbb6 "> <!-- #18 --> </div>
+                <div class="bbb6 "> <!-- #19 --> </div>
+                <div class="bbb6 "> <!-- #20 --> </div>
+                <div class="bbb6 "> <!-- #21 --> </div>
+                <div class="bbb6 "> <!-- #22 --> </div>
+                <div class="bbb6 "> <!-- #23 --> </div>
+                <div class="bbb6 "> <!-- #24 --> </div>
+                <div class="bbb6 "> <!-- #25 --> </div>
+                <div class="bbb6 "> <!-- #26 --> </div>
+                <div class="bbb6 "> <!-- #27 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #28 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #29 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #30 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #31 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #32 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #33 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #34 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #35 --> </div>
+                <div class="bbb6 "> <!-- #36 --> </div>
+                <div class="bbb6 "> <!-- #37 --> </div>
+                <div class="bbb6 "> <!-- #38 --> </div>
+                <div class="bbb6 "> <!-- #39 --> </div>
+                <div class="bbb6 "> <!-- #40 --> </div>
+              </div> 
+              <div class="bbb5 "> <!-- row 16 -->
+                <div class="bbb6 "> <!-- #0 --> </div>
+                <div class="bbb6 "> <!-- #1 --> </div>
+                <div class="bbb6 "> <!-- #2 --> </div>
+                <div class="bbb6 "> <!-- #3 --> </div>
+                <div class="bbb6 "> <!-- #4 --> </div>
+                <div class="bbb6 "> <!-- #5 --> </div>
+                <div class="bbb6 "> <!-- #6 --> </div>
+                <div class="bbb6 "> <!-- #7 --> </div>
+                <div class="bbb6 "> <!-- #8 --> </div>
+                <div class="bbb6 "> <!-- #9 --> </div>
+                <div class="bbb6 "> <!-- #10 --> </div>
+                <div class="bbb6 "> <!-- #11 --> </div>
+                <div class="bbb6 "> <!-- #12 --> </div>
+                <div class="bbb6 "> <!-- #13 --> </div>
+                <div class="bbb6 "> <!-- #14 --> </div>
+                <div class="bbb6 "> <!-- #15 --> </div>
+                <div class="bbb6 "> <!-- #16 --> </div>
+                <div class="bbb6 "> <!-- #17 --> </div>
+                <div class="bbb6 "> <!-- #18 --> </div>
+                <div class="bbb6 "> <!-- #19 --> </div>
+                <div class="bbb6 "> <!-- #20 --> </div>
+                <div class="bbb6 "> <!-- #21 --> </div>
+                <div class="bbb6 "> <!-- #22 --> </div>
+                <div class="bbb6 "> <!-- #23 --> </div>
+                <div class="bbb6 "> <!-- #24 --> </div>
+                <div class="bbb6 "> <!-- #25 --> </div>
+                <div class="bbb6 "> <!-- #26 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #27 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #28 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #29 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #30 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #31 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #32 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #33 --> </div>
+                <div class="bbb6  clickable" onclick="lulu()"> <!-- #34 --> </div>
+                <div class="bbb6 "> <!-- #35 --> </div>
+                <div class="bbb6 "> <!-- #36 --> </div>
+                <div class="bbb6 "> <!-- #37 --> </div>
+                <div class="bbb6 "> <!-- #38 --> </div>
+                <div class="bbb6 "> <!-- #39 --> </div>
+              </div>
+              <div class="bbb5 "> <!-- row 17 -->
+                <div class="bbb6 "> <!-- #1 --> </div>
+                <div class="bbb6 "> <!-- #2 --> </div>
+                <div class="bbb6 "> <!-- #3 --> </div>
+                <div class="bbb6 "> <!-- #4 --> </div>
+                <div class="bbb6 "> <!-- #5 --> </div>
+                <div class="bbb6 "> <!-- #6 --> </div>
+                <div class="bbb6 "> <!-- #7 --> </div>
+                <div class="bbb6 "> <!-- #8 --> </div>
+                <div class="bbb6 "> <!-- #9 --> </div>
+                <div class="bbb6 "> <!-- #10 --> </div>
+                <div class="bbb6 "> <!-- #11 --> </div>
+                <div class="bbb6 "> <!-- #12 --> </div>
+                <div class="bbb6 "> <!-- #13 --> </div>
+                <div class="bbb6 "> <!-- #14 --> </div>
+                <div class="bbb6 "> <!-- #15 --> </div>
+                <div class="bbb6 "> <!-- #16 --> </div>
+                <div class="bbb6 "> <!-- #17 --> </div>
+                <div class="bbb6 "> <!-- #18 --> </div>
+                <div class="bbb6 "> <!-- #19 --> </div>
+                <div class="bbb6 "> <!-- #20 --> </div>
+                <div class="bbb6 "> <!-- #21 --> </div>
+                <div class="bbb6 "> <!-- #22 --> </div>
+                <div class="bbb6 "> <!-- #23 --> </div>
+                <div class="bbb6 "> <!-- #24 --> </div>
+                <div class="bbb6 "> <!-- #25 --> </div>
+                <div class="bbb6 "> <!-- #26 --> </div>
+                <div class="bbb6 "> <!-- #27 --> </div>
+                <div class="bbb6 "> <!-- #28 --> </div>
+                <div class="bbb6 "> <!-- #29 --> </div>
+                <div class="bbb6 "> <!-- #30 --> </div>
+                <div class="bbb6 "> <!-- #31 --> </div>
+                <div class="bbb6 "> <!-- #32 --> </div>
+                <div class="bbb6 "> <!-- #33 --> </div>
+                <div class="bbb6 "> <!-- #34 --> </div>
+                <div class="bbb6 "> <!-- #35 --> </div>
+                <div class="bbb6 "> <!-- #36 --> </div>
+                <div class="bbb6 "> <!-- #37 --> </div>
+                <div class="bbb6 "> <!-- #38 --> </div>
+                <div class="bbb6 "> <!-- #39 --> </div>
+                <div class="bbb6 "> <!-- #40 --> </div>
+              </div>
+              <div class="bbb5 "> <!-- row 18 -->
+                <div class="bbb6 "> <!-- #0 --> </div>
+                <div class="bbb6 "> <!-- #1 --> </div>
+                <div class="bbb6 "> <!-- #2 --> </div>
+                <div class="bbb6 "> <!-- #3 --> </div>
+                <div class="bbb6 "> <!-- #4 --> </div>
+                <div class="bbb6 "> <!-- #5 --> </div>
+                <div class="bbb6 "> <!-- #6 --> </div>
+                <div class="bbb6 "> <!-- #7 --> </div>
+                <div class="bbb6 "> <!-- #8 --> </div>
+                <div class="bbb6 "> <!-- #9 --> </div>
+                <div class="bbb6 "> <!-- #10 --> </div>
+                <div class="bbb6 "> <!-- #11 --> </div>
+                <div class="bbb6 "> <!-- #12 --> </div>
+                <div class="bbb6 "> <!-- #13 --> </div>
+                <div class="bbb6 "> <!-- #14 --> </div>
+                <div class="bbb6 "> <!-- #15 --> </div>
+                <div class="bbb6 "> <!-- #16 --> </div>
+                <div class="bbb6 "> <!-- #17 --> </div>
+                <div class="bbb6 "> <!-- #18 --> </div>
+                <div class="bbb6 "> <!-- #19 --> </div>
+                <div class="bbb6 "> <!-- #20 --> </div>
+                <div class="bbb6 "> <!-- #21 --> </div>
+                <div class="bbb6 "> <!-- #22 --> </div>
+                <div class="bbb6 "> <!-- #23 --> </div>
+                <div class="bbb6 "> <!-- #24 --> </div>
+                <div class="bbb6 "> <!-- #25 --> </div>
+                <div class="bbb6 "> <!-- #26 --> </div>
+                <div class="bbb6 "> <!-- #27 --> </div>
+                <div class="bbb6 "> <!-- #28 --> </div>
+                <div class="bbb6 "> <!-- #29 --> </div>
+                <div class="bbb6 "> <!-- #30 --> </div>
+                <div class="bbb6 "> <!-- #31 --> </div>
+                <div class="bbb6 "> <!-- #32 --> </div>
+                <div class="bbb6 "> <!-- #33 --> </div>
+                <div class="bbb6 "> <!-- #34 --> </div>
+                <div class="bbb6 "> <!-- #35 --> </div>
+                <div class="bbb6 "> <!-- #36 --> </div>
+                <div class="bbb6 "> <!-- #37 --> </div>
+                <div class="bbb6 "> <!-- #38 --> </div>
+                <div class="bbb6 "> <!-- #39 --> </div>
+              </div>
+              <div class="bbb5 "> <!-- row 19 -->
+                <div class="bbb6 "> <!-- #1 --> </div>
+                <div class="bbb6 "> <!-- #2 --> </div>
+                <div class="bbb6 "> <!-- #3 --> </div>
+                <div class="bbb6 "> <!-- #4 --> </div>
+                <div class="bbb6 "> <!-- #5 --> </div>
+                <div class="bbb6 "> <!-- #6 --> </div>
+                <div class="bbb6 "> <!-- #7 --> </div>
+                <div class="bbb6 "> <!-- #8 --> </div>
+                <div class="bbb6 "> <!-- #9 --> </div>
+                <div class="bbb6 "> <!-- #10 --> </div>
+                <div class="bbb6 "> <!-- #11 --> </div>
+                <div class="bbb6 "> <!-- #12 --> </div>
+                <div class="bbb6 "> <!-- #13 --> </div>
+                <div class="bbb6 "> <!-- #14 --> </div>
+                <div class="bbb6 "> <!-- #15 --> </div>
+                <div class="bbb6 "> <!-- #16 --> </div>
+                <div class="bbb6 "> <!-- #17 --> </div>
+                <div class="bbb6 "> <!-- #18 --> </div>
+                <div class="bbb6 "> <!-- #19 --> </div>
+                <div class="bbb6 "> <!-- #20 --> </div>
+                <div class="bbb6 "> <!-- #21 --> </div>
+                <div class="bbb6 "> <!-- #22 --> </div>
+                <div class="bbb6 "> <!-- #23 --> </div>
+                <div class="bbb6 "> <!-- #24 --> </div>
+                <div class="bbb6 "> <!-- #25 --> </div>
+                <div class="bbb6 "> <!-- #26 --> </div>
+                <div class="bbb6 "> <!-- #27 --> </div>
+                <div class="bbb6 "> <!-- #28 --> </div>
+                <div class="bbb6 "> <!-- #29 --> </div>
+                <div class="bbb6 "> <!-- #30 --> </div>
+                <div class="bbb6 "> <!-- #31 --> </div>
+                <div class="bbb6 "> <!-- #32 --> </div>
+                <div class="bbb6 "> <!-- #33 --> </div>
+                <div class="bbb6 "> <!-- #34 --> </div>
+                <div class="bbb6 "> <!-- #35 --> </div>
+                <div class="bbb6 "> <!-- #36 --> </div>
+                <div class="bbb6 "> <!-- #37 --> </div>
+                <div class="bbb6 "> <!-- #38 --> </div>
+                <div class="bbb6 "> <!-- #39 --> </div>
+                <div class="bbb6 "> <!-- #40 --> </div>
+              </div>
+              <div class="bbb5 "> <!-- row 20 -->
+                <div class="bbb6 "> <!-- #0 --> </div>
+                <div class="bbb6 "> <!-- #1 --> </div>
+                <div class="bbb6 "> <!-- #2 --> </div>
+                <div class="bbb6 "> <!-- #3 --> </div>
+                <div class="bbb6 "> <!-- #4 --> </div>
+                <div class="bbb6 "> <!-- #5 --> </div>
+                <div class="bbb6 "> <!-- #6 --> </div>
+                <div class="bbb6 "> <!-- #7 --> </div>
+                <div class="bbb6 "> <!-- #8 --> </div>
+                <div class="bbb6 "> <!-- #9 --> </div>
+                <div class="bbb6 "> <!-- #10 --> </div>
+                <div class="bbb6 "> <!-- #11 --> </div>
+                <div class="bbb6 "> <!-- #12 --> </div>
+                <div class="bbb6 "> <!-- #13 --> </div>
+                <div class="bbb6 "> <!-- #14 --> </div>
+                <div class="bbb6 "> <!-- #15 --> </div>
+                <div class="bbb6 "> <!-- #16 --> </div>
+                <div class="bbb6 "> <!-- #17 --> </div>
+                <div class="bbb6 "> <!-- #18 --> </div>
+                <div class="bbb6 "> <!-- #19 --> </div>
+                <div class="bbb6 "> <!-- #20 --> </div>
+                <div class="bbb6 "> <!-- #21 --> </div>
+                <div class="bbb6 "> <!-- #22 --> </div>
+                <div class="bbb6 "> <!-- #23 --> </div>
+                <div class="bbb6 "> <!-- #24 --> </div>
+                <div class="bbb6 "> <!-- #25 --> </div>
+                <div class="bbb6 "> <!-- #26 --> </div>
+                <div class="bbb6 "> <!-- #27 --> </div>
+                <div class="bbb6 "> <!-- #28 --> </div>
+                <div class="bbb6 "> <!-- #29 --> </div>
+                <div class="bbb6 "> <!-- #30 --> </div>
+                <div class="bbb6 "> <!-- #31 --> </div>
+                <div class="bbb6 "> <!-- #32 --> </div>
+                <div class="bbb6 "> <!-- #33 --> </div>
+                <div class="bbb6 "> <!-- #34 --> </div>
+                <div class="bbb6 "> <!-- #35 --> </div>
+                <div class="bbb6 "> <!-- #36 --> </div>
+                <div class="bbb6 "> <!-- #37 --> </div>
+                <div class="bbb6 "> <!-- #38 --> </div>
+                <div class="bbb6 "> <!-- #39 --> </div>
+              </div>
+            </div>
+            <div class="bbb3"></div>
+          </div>
+          <div class="bbb1"></div>
+        </div>
+    </div>
+      </div>
+    </div>
+    <!-- <img src="images/teambybpic.png"/> -->  
+
+      <div class="modal center-content" id="myModal3">
+        <!-- this is the "X" button to close the modal -->
+        <span class="close" style="font-size: 50px" onclick="hideModal3()"
+          >&times;</span>
+          <div class="modal3" id="modal3id">
+            <div class="guidebox2 grey none" id="codeboxSolve"> 
+              <p class="text19" id="checkDoor"> Hopefully This Can Help Me Unlock The Door And Get Out Of Here...
+            </p>
+          </div>
+            <div class="solver3d2 center-content" id="solver3d2"> 
+              <div class="guidebox grey" id="codeboxsolve">
+               <p class="text6" id="codesolve"> Use The Numbers Found In The Levels To Complete The Code!
+            </p>
+          </div> 
+          </div>
+            <div class="solver3d center-content" id="solver3d"> <input type="texteh" id="answer1" autocomplete="off" />
+              <input type="submit" value="Submit" id="Submit1" class="" onclick="checkInput()" /> 
+            </div>
+              <img src="images/key.gif" id="key" class="none clickable" onclick="keyClick()"/>
+            </div>
+          
+      </div>
+    </div>
+
+      <div class="modal center-content" id="myModal4">
+        <!-- this is the "X" button to close the modal -->
+        <span class="close" style="font-size: 50px" onclick="hideModal4()"
+          >&times;</span>
+          <div class="modal4 ">
+            <div class="bill">
+              <img src="images/billL4D.png"  class="big" /></div>
+            <div class="l4dbox  clickable" onclick="screw()"  id="boxbox1">
+              <img src="images/screwdoodledoo.png" class="none marginwrench smallerer" id="screwdriver"/>
+              <p class="text5 none" id="nothingl4d7"> Screwdriver? Can I Open Something Out This Room?
+              </p>
+            </div>
+            <div class="l4dbox2 clickable center-content" onclick="nothingtext2()" id="boxbox5">
+              <p class="text none" id="nothingl4d2"> Nothing here...
+              </p>
+            </div>
+            <div class="l4dbox3 clickable" onclick="hammer()" id="boxbox3"> 
+              <img src="images/hammer.png" class="none" id="hammer"/> 
+            </div>
+            <div class="l4dbox4 clickable center-content" onclick="nothingtext()" id="boxbox4">
+              <p class="text none" id="nothingl4d"> Nothing here...
+              </p>
+            </div>
+            <div class="l4dbox5 clickable" onclick="blueglock()" id="boxbox2">
+            <img src="images/BLUEglock.png" class="none" id="glock"/>
+              <div class="l4dbox7  none" id="blueglock">  
+                <p class="text"> WOAH! A Blue Glock 19!
+                </p> 
+              </div>
+            </div>
+            <div class="l4dbox6  grey center-content" >
+              <p class="text"> Hey there sonny, help me look for some supplies we can use to escape!
+              </p>
+            </div>
+      </div>
+    </div>
+  </div>
+        
+      <div class="modal center-content" id="myModal5">
+        <!-- this is the "X" button to close the modal -->
+        <span class="close" style="font-size: 50px" onclick="hideModal5()"
+          >&times;</span>
+          <div class="modal5">
+            <div class="codecolumn center-content">
+              <div class="codebox grey center-content">
+                <p class="text"> Oh This Vent Was Already Open. This looks like some kind of color code. Maybe the colors in this order mean something...
+                </p>
+              </div>
+            </div>
+            <div class="codecolumn2 center-content">
+              <img src="images/codecolor.png"/>
+            </div>
+          </div>      
+  </div>
+        
+      <div class="modal center-content" id="myModal6">
+        <!-- this is the "X" button to close the modal -->
+        <span class="close" style="font-size: 50px" onclick="hideModal6()"
+          >&times;</span>
+          <div class="modal6">
+            <div class="placeholder"> 
+              <div class="map clickable" onclick="showmapModal()"> </div> 
+            </div>
+            <div class="placeholder"> 
+              <div class="drawerPJZ clickable" onclick="showfrog()"> 
+              <img src="images/frog.png" class="none" id="frog"/>
+                <div class="drawerPJZ2 none" id="frogyes">  
+                  <p class="text"> Uh... A Frog?
+                  </p>
+              </div> 
+            </div>
+          </div> 
+
+            <div class="placeholder"> 
+              <div class="radio clickable"  onclick="RadioError()" > </div> 
+            </div>
+    
+     </div> 
+    </div>
+  </div>
+        
+      <div class="modal center-content" id="myModal7">
+        <!-- this is the "X" button to close the modal -->
+        <span class="close" style="font-size: 50px" onclick="hideModal7()"
+          >&times;</span
+        >
+      </div>
+
+    </div>
+   
+    <div class="modal center-content" id="mapmodal">
+      <!-- this is the "X" button to close the modal -->
+      <span class="close" style="font-size: 50px" onclick="hidemapModal()"
+        >&times;</span>
+          <img src="images/MapCode.png"/>
+          
+    </div>
+  </div>
+</div>
+<div class="startmodal center-content" id="intro">
+  <!-- this is the "X" button to close the modal -->
+  <span class="close" style="font-size: 50px" onclick="hideStartModal()">&times;</span>
+  <div class="startmodal-content center-content"></div>
+
+</div>
+
+  <script src="preload.js"></script>    
+  <script src="script.js"></script>
+  <audio id="backAmbience" loop autoplay>
+    <source src="Sounds/MainBGMusic.mp3" type="audio/mp3"/>
+  </audio>
+  <audio src="Sounds/SimpleBYBMusic.wav" id="BASEBALLMUSIC"></audio>
+  <audio src="Sounds/RadioError.mp3" id="RadioError"></audio>
+  <audio src="Sounds/pjaudio.mp3" id="PJZSCARE"></audio>
+  <audio src="Sounds/L4DBGMusic.mp3" id="ZombieMusic"></audio>
+  <audio src="Sounds/Tony 1.wav" id="t3"></audio>
+  <audio src="Sounds/Tony 2.wav" id="t2"></audio>
+  <audio src="Sounds/Tony 3.wav" id="t1"></audio>
+  <audio src="Sounds/Achmed 1.wav" id="a1"></audio>
+  <audio src="Sounds/Achmed 2.wav" id="a2"></audio>
+  <audio src="Sounds/Achmed 3.wav" id="a3"></audio>
+  <audio src="Sounds/Dante 1.wav" id="dr3"></audio>
+  <audio src="Sounds/Dante 2.wav" id="dr2"></audio>
+  <audio src="Sounds/Dante 3.wav" id="dr1"></audio>
+  <audio src="Sounds/Amir 1.wav" id="am1"></audio>
+  <audio src="Sounds/Amir 2.wav" id="am2"></audio>
+  <audio src="Sounds/Amir 3.wav" id="am3"></audio>
+  <audio src="Sounds/Amir 4.wav" id="am4"></audio>
+  <audio src="Sounds/Kiesha 1.wav" id="k1"></audio>
+  <audio src="Sounds/Kiesha 2.wav" id="k4"></audio>
+  <audio src="Sounds/Kiesha 3.wav" id="k3"></audio>
+  <audio src="Sounds/Kiesha 4.wav" id="k2"></audio>
+  <audio src="Sounds/Pete 1.wav" id="p1"></audio>
+  <audio src="Sounds/Pete 2.wav" id="p2"></audio>
+  <audio src="Sounds/Pete 3.wav" id="p3"></audio>
+  <audio src="Sounds/Pete 4.wav" id="p4"></audio>
+  <audio src="Sounds/Mikey 1.wav" id="m1"></audio>
+  <audio src="Sounds/Mikey 3.wav" id="m2"></audio>
+  <audio src="Sounds/Mikey 4.wav" id="m3"></audio>
+  <audio src="Sounds/Lulu 1.wav" id="l1"></audio>
+  <audio src="Sounds/Lulu 2.wav" id="l2"></audio>
+  <audio src="Sounds/Lulu 3.wav" id="l3"></audio>
+  <audio src="Sounds/Dmitri 1.wav" id="dm1"></audio>
+  <audio src="Sounds/Dmitri 2.wav" id="dm2"></audio>
+  <audio src="Sounds/Dmitri-3.wav" id="dm3"></audio>
+  </body>
+</html>
+
+<!--<div class="box green" onclick="addImage()" id="box1">
+      <img src="images/goomba.jfif" class="goomba" id="goomba" />
+    </div>-->
+
+<!----<div class="box opaquelight_blue" onclick="rotate()" id="box8">
+      <img src="" id="goomba8" />
+          <div class="modal center-content">
+      <!-- the content of your modal pop-up! -->
