@@ -323,7 +323,7 @@ function keyClick() {
   document.getElementById("exit").setAttribute("onclick", "exit()");
 }
 function exit() {
-  window.location.href = "https://cjg9nx.csb.app/";
+  window.location.href = "https://diskrio.github.io/Final-Escape-Level/";
 }
 window.onload = function () {
   startModal();
